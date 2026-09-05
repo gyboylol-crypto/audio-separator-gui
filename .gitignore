@@ -1,0 +1,23 @@
+.runtime/
+.models/
+.cache/
+*.log
+__pycache__/
+.pytest_cache/
+dist/
+*.zip
+# Local development history is not needed in a public source release.
+CHECKPOINT.md
+VERIFICATION.md
+VERIFICATION_V2.md
+.env
+.env.*
+*.pem
+*.key
+*.mp3
+*.mp4
+*.wav
+*.flac
+*.ckpt
+*.pt
+*.onnx
