@@ -1,1 +1,28 @@
-
+[
+  {
+    "id": "mdx23c_8kfft_instvoc_hq",
+    "name": "MDX23C 8K FFT（人声与背景分离）",
+    "engine": "audio_separator",
+    "model_filename": "MDX23C-8KFFT-InstVoc_HQ.ckpt",
+    "sample_rate": 44100,
+    "enabled": true,
+    "description": "输出 Vocals 人声与 Background 背景两条音轨；已完成 v2 本机推理验收。"
+  },
+  {
+    "id": "bs_roformer_viperx_1297",
+    "name": "BS-RoFormer Viperx 1297（人声与背景分离）",
+    "engine": "audio_separator",
+    "model_filename": "model_bs_roformer_ep_317_sdr_12.9755.ckpt",
+    "sample_rate": 44100,
+    "enabled": true,
+    "description": "输出 Vocals 与 Background 两条音轨；模型已部署并完成本机推理验收，实际效果请试听比较。"
+  },
+  {
+    "id": "mossformer2_se_48k",
+    "name": "MossFormer2 SE 48K（语音降噪增强）",
+    "engine": "clearvoice",
+    "model_filename": "MossFormer2_SE_48K",
+    "enabled": true,
+    "description": "仅导出一条 Denoised 降噪音频，保留原文件；面向说话声增强，不用于保留完整游戏音效。"
+  }
+]
